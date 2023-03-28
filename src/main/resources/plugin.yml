@@ -1,0 +1,16 @@
+name: EasyRep
+version: '${project.version}'
+main: me.notenoughskill.easyrep.easyrep.EasyRep
+api-version: 1.19
+authors: [ NotEnoughSkill ]
+description: A simple repuation system
+commands:
+  rep:
+    description: Give a player +1 Reputation
+    usage: /rep <player>
+  checkrep:
+    description: Checks a player's reputation
+    usage: /checkrep <player>
+  negrep:
+    description: Give a player -1 Reputation
+    usage: /negrep <player>
